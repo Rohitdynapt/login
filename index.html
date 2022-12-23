@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+     <link rel="stylesheet" href="index.css"/>
+     <script src="./login.js"></script>
+    </head>
+    <body>
+    <div>
+    <form action="login.js" method="post" onsubmit="return validate()">
+        <table>
+            <tr>
+                <td colspan="3"><h1>Login form</h1></td>
+               
+            </tr>
+            <tr>
+                <td> <label>Username  :  </label></td>
+                <td><input type="text" placeholder="Enter your user name" id="username" class="input1"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label>Password  :  </label></td>
+                <td> <input type="password" placeholder="Enter your password" id="password"class="input1"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Login"  class="input2"/></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</div>
+    
+    </body>
+</html>
